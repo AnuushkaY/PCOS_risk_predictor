@@ -73,15 +73,19 @@ All inputs are **numeric** and **standardized** before prediction.
 ```bash
 python -m venv myenv
 myenv\Scripts\activate
+```
 
-## ⚙️ How to Run the Project
-1️⃣ Create Virtual Environment:
-python -m venv myenv
-myenv\Scripts\activate
-2️⃣ Install Dependencies:
+### 2️⃣ Install Dependencies:
+```bash
 pip install pandas scikit-learn joblib
-3️⃣ Train the Model:
-python model/train_model_RF.py
-4️⃣ Predict PCOS Risk:
-python model/predict_risk.py
+```
 
+### 3️⃣ Train the Model:
+```bash
+python model/train_model_RF.py
+```
+
+### 4️⃣ Predict PCOS Risk:
+```bash
+python model/predict_risk.py
+```
